@@ -1,10 +1,17 @@
 2. cookie_session_auth source code
+   
 a. node app.js
+
 b. register
+
 Mở Postman chọn phương thức POST và nhập url: http://localhost:3000/auth/register
+
 Chọn Body -> raw(Json)
+
 Nhập {"username": "admin", "password": "12345"} và chọn Send
+
 Kết quả : "User registered successfully!"
+
 <img width="1501" height="882" alt="image" src="https://github.com/user-attachments/assets/2840c00c-09a8-4865-829c-361fdcc3cc3a" />
 
 Check in database
